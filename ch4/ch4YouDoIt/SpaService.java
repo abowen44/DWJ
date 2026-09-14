@@ -1,5 +1,5 @@
 // Alexis Bowen
-// p.133
+// p.138
 
 
 public class SpaService 
@@ -9,8 +9,7 @@ public class SpaService
   private double price;
   public SpaService()
     {
-        serviceDescription = "XXX";
-        price = 0;
+        this("XXX", 0);
     }
   public SpaService(String desc, double pr)
   {
