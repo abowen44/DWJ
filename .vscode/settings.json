@@ -1,6 +1,8 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
     "java.project.sourcePaths":[
+        "ch9",
+        "ch8",
         "ch7",
         "ch6",
         "ch5",
@@ -10,6 +12,6 @@
         "Ch2/Ch2 Ex8",
         "Ch2",
         "Ch1",
-        "ch8"
+        "ch14"
     ]
 }
