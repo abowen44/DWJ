@@ -1,0 +1,37 @@
+//Alexis Bowen
+// p 157 A
+
+public class Team {
+    private String highSchoolName;
+    private String sport;
+    private String teamName;
+
+    public static final String MOTTO = "Sportsmanship!";
+
+    public Team(String highSchoolName, String sport, String teamName) {
+        this.highSchoolName = highSchoolName;
+        this.sport = sport;
+        this.teamName = teamName;
+    }
+
+    public String getHighSchoolName() {
+        return highSchoolName;
+    }
+
+    public String getSport() {
+        return sport;
+    }
+
+    public String getTeamName() {
+        return teamName;
+    }
+
+    public static void main(String[] args) {
+        Team team = new Team("Roosevelt High", "Basketball", "Dolphins");
+
+        System.out.println(team.getHighSchoolName());
+        System.out.println(team.getSport());
+        System.out.println(team.getTeamName());
+        System.out.println(MOTTO);
+    }
+}
